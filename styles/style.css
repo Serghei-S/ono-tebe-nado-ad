@@ -15,8 +15,18 @@
   font-weight: 400;
 }
 
-.header__link_active {
+.header__menu-item:not(:first-child)::before {
+  content: '◦';
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.header__link {
   border-bottom: 1px solid #000000;
+}
+
+.header__link_active {
+  border-bottom: none;
 }
 
 .header__logo {
@@ -245,8 +255,12 @@
   font-size: 18px;
 }
 
-.footer__link_active {
+.footer__link {
   border-bottom: 1px solid #000000;
+}
+
+.footer__link_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
