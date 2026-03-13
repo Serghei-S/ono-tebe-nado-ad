@@ -8,10 +8,13 @@
   align-items: center;
 }
 
+.header__menu {
+  font-size: 18px;
+}
+
 .header__menu-list {
   display: flex;
   gap: 32px;
-  font-size: 18px;
   font-weight: 400;
 }
 
@@ -23,6 +26,7 @@
 
 .header__link {
   border-bottom: 1px solid #000000;
+  white-space: nowrap;
 }
 
 .header__link_active {
@@ -61,6 +65,7 @@
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
+  min-height: 757px;
 }
 
 .cover .container {
@@ -75,7 +80,7 @@
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 0.3em;
-  line-height: 115%;
+  line-height: 1.15;
   text-transform: uppercase;
 }
 
