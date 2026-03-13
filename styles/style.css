@@ -131,6 +131,10 @@
   margin-top: 180px;
 }
 
+.lots .container {
+  padding: 0 24px;
+}
+
 .lots__title {
   margin: 0 0 27px 40px;
   font-size: 40px;
@@ -209,6 +213,7 @@
 }
 
 .about .container {
+  padding: 0 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
